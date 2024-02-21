@@ -87,7 +87,7 @@ public class breakoutBallScript : MonoBehaviour
             Reset();
         }
         
-        // did we hit the bottom Wall?
+        // did we hit a brick?
         if (other.gameObject.tag == "Brick")
         {
             int r = Random.Range(10, 20);

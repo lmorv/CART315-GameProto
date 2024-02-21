@@ -1,4 +1,18 @@
-## Cocoon, Returnal & things that came before 
+
+## 02 - Shoot em up Ideation
+
+Biomechanical, main character on foot (maybe), enemies are spores, pixel art.
+
+Tutorial to build on:
+- https://www.youtube.com/playlist?list=PL6ynPcXXvDY_9nYW_S-nAliA1w1mARm8x
+
+Style inspiration:
+- https://penusbmic.itch.io/sci-fi-platformer-dark-edition
+- https://penusbmic.itch.io/the-dark-series-the-ancient-guardian
+- https://penusbmic.itch.io/the-dark-series-the-tarnished-widow-boss
+- https://penusbmic.itch.io/the-dark-series-shadow-of-storms
+
+## 01 - Cocoon, Returnal & things that came before 
 
 ### Concatenated unlock flows
 The moment I realized Cocoon's depth, beyond the charming art style and the localized creative environmental puzzles, was when I acquired the ability to travel to a second biome and encountered the same same sort of barrier's that I'd learn to de-activate in the first biome using a drone. The game wanted me to go back to the first world, get a similar drone, and come back to the newly unlocked world to clear my way forward. And it gave the means to do so within a reasonably low effort investment through established mechanics for narratively-wrapped fast travel between worlds. You see, each world that the player unlocks is represented by an orb that they can carry about from one travel portal to another, each progressive travel portal they encounter requires a higher number of world orbs to activate, requiring the player to amass all currently held orbs around the portal. Once activated the portal can be attuned to any orb placed in the middle, allowing the player to jump into the orb to explore the biome held within. 

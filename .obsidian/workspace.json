@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "429924a94a1c8c7c",
@@ -148,6 +149,17 @@
   },
   "active": "aab834433640f15e",
   "lastOpenFiles": [
+    "projects/SHMUP_Remix/Temp/UnityTempFile-a282aae46324e2e4d8b879541e0b5b76",
+    "projects/SHMUP_Remix/Library/ProtocolInstance.json",
+    "projects/SHMUP_Remix/Library/Bee/TundraBuildState.state",
+    "projects/SHMUP_Remix/Assets/Scripts/Destructable.cs~",
+    "projects/SHMUP_Remix/Temp/UnityTempFile-fce8442f2f300fd45bd45d286bcf335b",
+    "projects/SHMUP_Remix/Temp/ADB-Refresh29520594c37e4fe4aba62b01f061f31c",
+    "projects/SHMUP_Remix/Temp/FSTimeGet-4fa26c578dc449c45873e1eb40d7a9f0",
+    "projects/SHMUP_Remix/Temp/FSTimeGet-ac61fa6a6725fae4b9cd31e51712cdcb",
+    "projects/SHMUP_Remix/Logs/AssetImportWorker3.log",
+    "projects/SHMUP_Remix/Logs/AssetImportWorker2.log",
+    "projects/SHMUP_Remix/Library/TempArtifacts/Extra/df88691509fac2b4984299122fd76e30.info",
     "process/journal.md"
   ]
 }
