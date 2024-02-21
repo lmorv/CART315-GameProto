@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -105,5 +106,25 @@ public class ShipScript : MonoBehaviour
         }
         
         transform.position = pos;
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        BulletScript bullet = collision.GetComponent<BulletScript>();
+        if (bullet != null)
+        {
+            if (bullet.isEnemy)
+            {
+                Destroy(gameObject);
+                Destroy(bullet.gameObject);
+            }
+        }
+
+        Destructable destructable = collision.GetComponent<Destructable>();
+        if (destructable != null)
+        {
+            Destroy(gameObject);
+            Destroy(destructable.gameObject);
+        }
     }
 }

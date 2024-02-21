@@ -31,9 +31,11 @@ public class Destructable : MonoBehaviour
         BulletScript bullet = collision.GetComponent<BulletScript>();
         if (bullet != null)
         {
-            Debug.Log("HIT!");
-            Destroy(gameObject);
-            Destroy(bullet.gameObject);
+            if (!bullet.isEnemy)
+            {
+                Destroy(gameObject);
+                Destroy(bullet.gameObject);
+            }
         }
     }
 }

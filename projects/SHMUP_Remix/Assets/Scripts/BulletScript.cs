@@ -10,6 +10,8 @@ public class BulletScript : MonoBehaviour
     public float speed = 2;
 
     public Vector2 velocity;
+
+    public bool isEnemy = false;
     
     // Start is called before the first frame update
     void Start()
