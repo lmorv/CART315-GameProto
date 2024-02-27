@@ -13,6 +13,8 @@ public class GunScript : MonoBehaviour
     public float shootDelaySeconds = 0.0f;
     private float shootTimer = 0.0f;
     private float delayTimer = 0.0f;
+
+    public bool isActive = false;
     
     // Start is called before the first frame update
     void Start()
@@ -23,6 +25,10 @@ public class GunScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (!isActive)
+        {
+            return;
+        }
         direction = (transform.localRotation * Vector2.right).normalized;
         
         if (autoShoot)
@@ -31,7 +37,7 @@ public class GunScript : MonoBehaviour
             {
                 if (shootTimer >= shootIntervalSeconds)
                 {
-                    Debug.Log("shoosthing");
+                    //Debug.Log("shoosthing");
                     Shoot();
                     shootTimer = 0;
                 }

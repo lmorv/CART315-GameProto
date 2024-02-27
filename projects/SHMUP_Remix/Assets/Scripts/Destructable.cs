@@ -9,15 +9,20 @@ public class Destructable : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        LevelController.instance.AddDestructable();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (transform.position.x < 12.5f)
+        if (transform.position.x < 17.5f && !canBeDestroyed)
         {
             canBeDestroyed = true;
+            GunScript[] guns = transform.GetComponentsInChildren<GunScript>();
+            foreach (GunScript gun in guns)
+            {
+                gun.isActive = true;
+            }
         }
     }
 
@@ -37,5 +42,10 @@ public class Destructable : MonoBehaviour
                 Destroy(bullet.gameObject);
             }
         }
+    }
+
+    private void OnDestroy()
+    {
+        LevelController.instance.RemoveDestructable();
     }
 }

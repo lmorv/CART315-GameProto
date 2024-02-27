@@ -21,6 +21,10 @@ public class ShipScript : MonoBehaviour
     void Start()
     {
         guns = transform.GetComponentsInChildren<GunScript>();
+        foreach (GunScript gun in guns)
+        {
+            gun.isActive = true;
+        }
     }
 
     // Update is called once per frame
@@ -117,6 +121,7 @@ public class ShipScript : MonoBehaviour
             {
                 Destroy(gameObject);
                 Destroy(bullet.gameObject);
+                Debug.Log("Game Over");
             }
         }
 
@@ -125,6 +130,7 @@ public class ShipScript : MonoBehaviour
         {
             Destroy(gameObject);
             Destroy(destructable.gameObject);
+            Debug.Log("Game Over");
         }
     }
 }
