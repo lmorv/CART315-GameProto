@@ -1,4 +1,32 @@
 
+
+## 03 - Conceptualization | possible tangents in exo-matriz and extra ideation to appease the gods
+
+I spent some time thinking of the different tangents I could take my existing project 'exo-matriz', and prototype in 'units' of distinct features. Some possible options are laied out in my notes that branch from the core concept of the game 'farming sim with beetles'. They are 
+
+- Market trading mechanics (the idea that you could trade the yield of your crops for money and upgrades).
+- beetle adventure arc - (a beetle micro traversal of an environment from the POV of a beetle).
+- Human arc societal arch (which I see as the main game mode).
+- Post-apocalyptic worldbuilding / Narrative systems design. (building up the details of the world and a sort of chapter progression).
+
+Unlock flows are sort-of central to many of these features too.  
+
+I also expanded out into wider concepts trying to generate new and completely different game concepts in class. my favorites are 'Orca Resistance Network', 'Feelings + Explosion' and 'Notebook + Cultivation'.
+
+From now on I will continue my journaling and development in the exo-matriz repo moving forward with 3rd person movement explorations, a sort of platformer for beetle movement. My initial question is purely functional; How do I implement  3d movement in an interesting traversal mechanic context?
+
+- [exo-matriz repo.](https://github.com/lmorv/exo-matrix/tree/main)
+- [exo-matriz journal.](https://github.com/lmorv/exo-matrix/blob/main/process/leo-journal.md)
+
+![ConceptualizationNotes_1](./images/ConceptualizationNotes_1.jpeg)
+
+
+![ConceptualizationNotes_1](./images/ConceptualizationNotes_2.jpeg)
+
+![ConceptualizationNotes_1](./images/ConceptualizationNotes_3.jpeg)
+
+![ConceptualizationNotes_1](./images/ConceptualizationNotes_4.jpeg)
+
 ## 02 - Shoot em up Ideation
 
 Biomechanical, main character on foot (maybe), enemies are spores, pixel art.

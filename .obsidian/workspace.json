@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 220.5
   },
   "right": {
     "id": "429924a94a1c8c7c",
@@ -149,6 +148,12 @@
   },
   "active": "aab834433640f15e",
   "lastOpenFiles": [
+    "process/images/ConceptualizationNotes_1.jpeg",
+    "process/journal.md",
+    "process/images/ConceptualizationNotes_2.jpeg",
+    "process/images/ConceptualizationNotes_3.jpeg",
+    "process/images/ConceptualizationNotes_4.jpeg",
+    "process/images",
     "projects/SHMUP_Remix/Temp/UnityTempFile-0cbb825a0f7787a4ea51bf64fb4b4317",
     "projects/SHMUP_Remix/Library/ProtocolInstance.json",
     "projects/SHMUP_Remix/Assets/Scripts/ShipScript.cs~",
@@ -157,9 +162,6 @@
     "projects/SHMUP_Remix/Library/Artifacts/e8/e8a3ab78379cbae9fcbf5287c14e43d9",
     "projects/SHMUP_Remix/Library/TempArtifacts/Extra/afe9b0ca24b37aa4fbd0c99aa1b77426.info",
     "projects/SHMUP_Remix/Library/Artifacts/03/03e61adb9b2b1625d6c4887343dbd121",
-    "projects/SHMUP_Remix/Library/Artifacts/c0/c02ae0b991f281cb6f13e93dc2946d3a",
-    "projects/SHMUP_Remix/Library/Artifacts/9c/9cda7d4a095e11188fd5b3aa8a20297d",
-    "projects/SHMUP_Remix/Temp/ADB-Refreshc87dd4a94bc139e42a149363ccaad3fb",
-    "process/journal.md"
+    "projects/SHMUP_Remix/Library/Artifacts/c0/c02ae0b991f281cb6f13e93dc2946d3a"
   ]
 }
